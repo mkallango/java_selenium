@@ -1,24 +1,24 @@
-# Prova Sicredi
+# Basic test script with Java/Selenium/TestNG/Maven
 
-Consiste basicamente em: 
-- Acessar um site, 
-- Preencher cadastro,
-- Remover registro e 
-- Validar mensagens. 
+Basically does: 
+- Site access, 
+- Fill register,
+- Remove register and 
+- Valdiate messages. 
   
-Em caso de erro durante a execução do script será gerada uma pasta 
-screenshot com uma imagem evidenciando o ponto onde ocorreu o erro.
+In case of error during the script run, will be created a folder "screenshot"
+The folder will contains an image evidencing the error
 
-### Pré-requisitos:
+### Pre-requirements:
 
 - Java
 - Maven
 - TestNG
 
-### Executando o projeto
+### Running project
 
-- Fazer o download das dependências do projeto com o Maven
-- Deve ser executado o TestNG apontando o arquivo __*testng.xml*__.
+- Download Maven project dependencies
+- Run TestNG pointing out to file __*testng.xml*__.
 
 
 
